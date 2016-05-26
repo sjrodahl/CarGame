@@ -5,18 +5,14 @@ import json
 #Datafiler kommer inn på formatet {"navn":"verdi"}
 
 class TripData():
-  #  fuel_used
-   # distance
-    #duration = 0
-    def __init__(self):
-        self.fuel_used = 10
-        self.distance = 100
-        self.duration = 60
+    #Dummy-data
+    fuel_used_since_restart = 20
+    distance_since_restart = 50
+    duration_since_restart = 40
 
-    def get_fuel_used(self):
-        return self.fuel_used
-    def get_distance(self):
-        return self.distance
-    def get_duration(self):
-        return self.duration
+    #Må threade inndata
+    #Mål:   lære om threading
+    #       lære om json
+
+
 
