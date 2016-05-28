@@ -14,6 +14,6 @@ class Algorithms():
         return self.fuel_used/self.distance
 
     def fuel_usage_score(self):
-        return self.average_fuel_consumption()*math.log(self.duration, math.e)
+        return 1/(self.average_fuel_consumption())*math.log(self.duration, math.e)
 
 
